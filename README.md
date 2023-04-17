@@ -3,7 +3,9 @@
 ### Goal/planning
 
 For this project we chose to do a design simelar to Mr Dierolfs because it was well documented and their were many tutorials on how to do it. 
-Out goal was to create a design that would ballence a ball directly in the middle using ultrasonic sensors 
+Out goal was to create a design that would ballence a ball directly in the middle using and ultrasonic sensor and servos.
+
+
 
 
 
