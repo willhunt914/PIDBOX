@@ -2,8 +2,8 @@
 
 ### Goal/planning
 
-For this project we chose to do a design simelar to Mr Dierolfs because it was well documented and their were many tutorials on how to do it. 
-Out goal was to create a design that would ballence a ball directly in the middle using and ultrasonic sensor and servos.
+For this project we chose to do a design similar to Mr Dierolfs because it was well documented and their were many tutorials on how to do it. 
+Out goal was to create a design that would balance a ball directly in the middle using and ultrasonic sensor and servos. 
 
 
 
@@ -75,9 +75,12 @@ while True:
 ```
 ### Cad
 
+### Evidence
+https://cvilleschools.onshape.com/documents/7c87217263b0a725d3512c0e/w/d04d77d161baa69265bfc1db/e/c6bb2c1666ca8a2d2c29ad5d
+### Images
 
 
-### parts
+
 
 
 
