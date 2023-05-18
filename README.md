@@ -79,15 +79,15 @@ while True:
 [Onshape Link](https://cvilleschools.onshape.com/documents/7c87217263b0a725d3512c0e/w/d04d77d161baa69265bfc1db/e/c6bb2c1666ca8a2d2c29ad5d)
 ### Images
 
-![Isometric View](https://github.com/willhunt914/PIDBOX/assets/112961434/7f9d0185-2236-45c3-bc5b-8c11570d3132)
+![Screenshot 2023-05-18 154842](https://github.com/willhunt914/PIDBOX/assets/112961434/d15d83bb-8c6f-4863-bb55-db3a7626f89a)
 
 This view shows where the light and switch will go, and also shows where the battery pack is held.
 
-![All added parts view](https://github.com/willhunt914/PIDBOX/assets/112961434/bd6821af-e21d-480d-9d1e-6cca1d23dee8)
+![Screenshot 2023-05-18 154910](https://github.com/willhunt914/PIDBOX/assets/112961434/97cc8196-3556-4fc6-85b0-99e43942295c)
 
 This picture shows the isometric viewpoint which shows how the servo is positioned and where it hooks onto the ball chamber.
 
-![Shows T-slots](https://github.com/willhunt914/PIDBOX/assets/112961434/05103893-8b02-4154-bd44-98767184dd53)
+![Screenshot 2023-05-18 154829](https://github.com/willhunt914/PIDBOX/assets/112961434/3d010b23-4162-4270-831f-e4633b3f571c)
 
 Friction fit+ t-slots allowed or us to quickly put the box together and take it apart.
 ### Problem #1
