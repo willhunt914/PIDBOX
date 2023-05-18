@@ -80,10 +80,11 @@ while True:
 ### Images
 
 ![Isometric View](https://github.com/willhunt914/PIDBOX/assets/112961434/7f9d0185-2236-45c3-bc5b-8c11570d3132)
-This picture shows the isometric view point which shows how the servo is positioned and where it hooks onto the ball chamber.
+
 
 ![All added parts view](https://github.com/willhunt914/PIDBOX/assets/112961434/bd6821af-e21d-480d-9d1e-6cca1d23dee8)
 
+This picture shows the isometric view point which shows how the servo is positioned and where it hooks onto the ball chamber.
 
 ![Shows T-slots](https://github.com/willhunt914/PIDBOX/assets/112961434/05103893-8b02-4154-bd44-98767184dd53)
 
