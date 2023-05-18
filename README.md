@@ -81,15 +81,15 @@ while True:
 
 ![Isometric View](https://github.com/willhunt914/PIDBOX/assets/112961434/7f9d0185-2236-45c3-bc5b-8c11570d3132)
 
-Viewpoint which shows how the servo is positioned and where it hooks onto the ball chamber.
+This view shows where the light and switch will go, and also shows where the battery pack is held.
 
 ![All added parts view](https://github.com/willhunt914/PIDBOX/assets/112961434/bd6821af-e21d-480d-9d1e-6cca1d23dee8)
 
-This picture shows the isometric view 
+This picture shows the isometric viewpoint which shows how the servo is positioned and where it hooks onto the ball chamber.
 
 ![Shows T-slots](https://github.com/willhunt914/PIDBOX/assets/112961434/05103893-8b02-4154-bd44-98767184dd53)
 
-
+Friction fit+ t-slots allowed or us to quickly put the box together and take it apart.
 ### Problem #1
 
 
