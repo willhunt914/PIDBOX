@@ -77,6 +77,14 @@ while True:
 
 ### Evidence
 [Onshape Link](https://cvilleschools.onshape.com/documents/7c87217263b0a725d3512c0e/w/d04d77d161baa69265bfc1db/e/c6bb2c1666ca8a2d2c29ad5d)
+
+
+
+https://github.com/willhunt914/PIDBOX/assets/112961434/8d510ab7-2464-4e5e-adf6-877d366d688f
+
+
+This is a video of the first time we got our PID to work.
+
 ### Images
 
 ![Screenshot 2023-05-18 154910](https://github.com/willhunt914/PIDBOX/assets/112961434/97cc8196-3556-4fc6-85b0-99e43942295c)
@@ -92,9 +100,16 @@ This picture shows the isometric viewpoint which shows how the servo is position
 Friction fit+ t-slots allowed or us to quickly put the box together and take it apart.
 ### Problem #1
 
+![PIDBOX#3](https://github.com/willhunt914/PIDBOX/assets/112961434/cd20c6a7-7a55-4461-ada8-b235ba777d57)
 
+Our first CAD problem came when the original axel design didn't work beacuse the way to attatch the axel to the chamber was through screw holes which interuppted the movement of the ball which stopped us from getting good readings.
+### Solution
 
+Our solution was...
 
+![Screenshot 2023-05-22 093548](https://github.com/willhunt914/PIDBOX/assets/112961434/e1c62af7-ee5a-4057-9c3b-59204c726199)
+
+Moving where the axel was connected on the chamber from the bottom to the sides so it had more stability and didn't interupt ball movements.
 
 
 ### Reflection
