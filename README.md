@@ -11,7 +11,7 @@ Out goal was to create a design that would balance a ball directly in the middle
 
 ![pidplannign](https://user-images.githubusercontent.com/71402974/232500023-27507196-46f4-4ddd-9c11-e0a9c3934b7b.png)
 
-
+This was our first idea and sketch where a servo located on the base you have a string or something to control the chamber.
 
 ### Code
 
