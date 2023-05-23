@@ -22,7 +22,7 @@ Build done by 5/17 so that we can have a quick start on PID and make sure that e
 
 Code First prototype should be done by 5/18 so that we can have a lot of time to test the code.
 
-Our work should be done 5/31 and thats when we should do documentation. we did documentation throughout so that we could have more time on the project.
+Our work should be done 5/31 and thats when we should do documentation. We did documentation throughout so that we could have more time on the project.
 
 ### Code
 
