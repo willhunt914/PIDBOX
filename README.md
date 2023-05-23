@@ -15,9 +15,13 @@ This was our first idea and sketch where a servo located on the base you have a 
 
 
 For this project we didn't have a planning document but we decided to make a finish date for all the different parts of the project.
+
 Onshape finished by 5/12 so that we have time to make changes.
+
 Build done by 5/17 so that we can have a quick start on PID and make sure that everything works as it should.
+
 Code First prototype should be done by 5/18 so that we can have a lot of time to test the code.
+
 Our work should be done 5/31 and thats when we should do documentation. we did documentation throughout so that we could have more time on the project.
 
 ### Code
