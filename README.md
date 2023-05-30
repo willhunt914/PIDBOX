@@ -111,6 +111,12 @@ This picture shows the isometric viewpoint which shows how the servo is position
 ![Screenshot 2023-05-18 154829](https://github.com/willhunt914/PIDBOX/assets/112961434/3d010b23-4162-4270-831f-e4633b3f571c)
 
 Friction fit+ t-slots allowed or us to quickly put the box together and take it apart.
+
+
+### Reflection
+The CAD, while it might seem easier than the code for this project is actually a crucial piece which insures that all the code can run smoothly and the project functions as it should. 
+
+
 ### Problem #1
 
 ![PIDBOX#3](https://github.com/willhunt914/PIDBOX/assets/112961434/cd20c6a7-7a55-4461-ada8-b235ba777d57)
@@ -124,6 +130,15 @@ Our solution was...
 
 Moving where the axel was connected on the chamber from the bottom to the sides so it had more stability and didn't interupt ball movements.
 
+### Misteps
 
-### Reflection
+One mistep was putting the battery pack on the side which led to the whole thing being unbalanced.
+
+The Solution: I had to put holes on the bottom for screws in order to balance it for the PID values.
+
+Another small mistake was putting the servo so close to the ground which made the servo horn hit the base. 
+
+The Solution: I put nuts in between the servo and the servo holder so that it would add space and allow for the srvo horn to work.
+
+
 
