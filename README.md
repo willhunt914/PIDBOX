@@ -114,7 +114,7 @@ Friction fit+ t-slots allowed or us to quickly put the box together and take it 
 
 
 ### Reflection
-The CAD, while it might seem easier than the code for this project is actually a crucial piece which insures that all the code can run smoothly and the project functions as it should. 
+The CAD, while it might seem easier than the code for this project is actually a crucial piece which insures that all the code can run smoothly and the project functions as it should. Our time management was  lot better this project and we weren't rushed and we knew if we stayed focused we could finish the project on time.
 
 
 ### Problem #1
