@@ -130,15 +130,17 @@ Our solution was...
 
 Moving where the axel was connected on the chamber from the bottom to the sides so it had more stability and didn't interupt ball movements.
 
-### Misteps
-
+### Mistep #1
 One mistep was putting the battery pack on the side which led to the whole thing being unbalanced.
 
-The Solution: I had to put holes on the bottom for screws in order to balance it for the PID values.
+### Solution #1 
+I had to put holes on the bottom for screws in order to balance it for the PID values.
 
-Another small mistake was putting the servo so close to the ground which made the servo horn hit the base. 
+### Mistep #2
+Another mistake was putting the servo so close to the ground which made the servo horn hit the base. 
 
-The Solution: I put nuts in between the servo and the servo holder so that it would add space and allow for the srvo horn to work.
+### Solution #2
+I put nuts in between the servo and the servo holder so that it would add space and allow for the srvo horn to work.
 
 
 
