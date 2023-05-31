@@ -114,8 +114,8 @@ This picture shows the isometric viewpoint which shows how the servo is position
 Friction fit+ t-slots allowed or us to quickly put the box together and take it apart.
 
 
-### Reflection
-The CAD, while it might seem easier than the code for this project is actually a crucial piece which insures that all the code can run smoothly and the project functions as it should. Our time management was  lot better this project and we weren't rushed and we knew if we stayed focused we could finish the project on time.
+### Reflection (includes problems and solutions)
+The CAD, while it might seem easier than the code for this project is actually a crucial piece which insures that all the code can run smoothly and the project functions as it should. Our time management was  lot better this project and we weren't rushed and we knew if we stayed focused we could finish the project on time. I learned that having a very solid plan at the start is important and to be able to adapt still. There was one instance of me not thinking ahead and so when a piece came it didn't work like I thought because I didn't think of it in a logical sense at the time.
 
 
 ### Problem #1
