@@ -136,9 +136,17 @@ Moving where the axel was connected on the chamber from the bottom to the sides 
 
 
 ### Problem 2
-![Old Wire](https://github.com/willhunt914/PIDBOX/assets/112961434/44725f24-60bc-45bb-bdd8-94208e303201)
 
-Our original wire bent and twisted which made the PID very hard to balance 
+![Old Wire](https://github.com/willhunt914/PIDBOX/assets/112961434/d3b54ae3-1375-4a07-a4a5-2d41a0973268)
+
+Our original wire bent and twisted which made the PID very hard to balance and led to bad readings.
+
+### Solution 2
+
+![New wire](https://github.com/willhunt914/PIDBOX/assets/112961434/c6d6ecbf-95f3-44d2-9823-a3ff049083af)
+ 
+ 
+ Our new idea was to use a very strong wire which didn't bend at all.
 
 ### Mistep #1
 One mistep was putting the battery pack on the side which led to the whole thing being unbalanced.
