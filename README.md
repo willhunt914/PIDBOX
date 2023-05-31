@@ -97,7 +97,7 @@ https://github.com/willhunt914/PIDBOX/assets/112961434/8d510ab7-2464-4e5e-adf6-8
 
 This is a video of the first time we got our PID to work.
 
-### Cad
+## Cad
 
 ### Images
 
@@ -126,13 +126,19 @@ The CAD, while it might seem easier than the code for this project is actually a
 ![PIDBOX#3](https://github.com/willhunt914/PIDBOX/assets/112961434/cd20c6a7-7a55-4461-ada8-b235ba777d57)
 
 Our first CAD problem came when the original axel design didn't work beacuse the way to attatch the axel to the chamber was through screw holes which interuppted the movement of the ball which stopped us from getting good readings.
-### Solution
+### Solution #1
 
 Our solution was...
 
 ![Screenshot 2023-05-22 093548](https://github.com/willhunt914/PIDBOX/assets/112961434/e1c62af7-ee5a-4057-9c3b-59204c726199)
 
 Moving where the axel was connected on the chamber from the bottom to the sides so it had more stability and didn't interupt ball movements.
+
+
+### Problem 2
+![Old Wire](https://github.com/willhunt914/PIDBOX/assets/112961434/44725f24-60bc-45bb-bdd8-94208e303201)
+
+Our original wire bent and twisted which made the PID very hard to balance 
 
 ### Mistep #1
 One mistep was putting the battery pack on the side which led to the whole thing being unbalanced.
