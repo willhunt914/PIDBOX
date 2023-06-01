@@ -27,25 +27,41 @@ Our work should be done 5/31 and thats when we should do documentation. We did d
 ### Code
 
 ```python
+# import necessary libraries
 import time
 import board
 import adafruit_hcsr04
 from adafruit_motor import servo
 import pwmio
 from simple_pid import PID
-# import necessary libraries
 
 
+# pid = PID(1, 0.1, 0.05, setpoint=1)
+
+# Assume we have a system we want to control in controlled_system
+# v = controlled_system.update(0)
+
+
+# initialize PWM and sonar
 pwm = pwmio.PWMOut(board.A1, duty_cycle=2 ** 15, frequency=50)
 sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D6, echo_pin=board.D7, timeout=0.1)
-setpoint=13 #sets middle point
+setpoint=13
 my_servo = servo.Servo(pwm)
-#sets pins for servo and ultrasonic sensor 
 
+# adjust kP, kI, kD to tune the PID controller
+pid = PID(8, 3, 0, setpoint=setpoint, output_limits=(10, 175))
 
-
-pid = PID(8, 3, 0, setpoint=setpoint, output_limits=(10, 175)) # adjust kP, kI, kD to tune the PID controller
-
+# grab initial value
+# input = sonar.distance 
+my_servo.angle=10
+# print('Angle: ', 10,)
+time.sleep(.5)
+my_servo.angle=175
+# print('Angle: ', 160,)
+time.sleep(.5)
+my_servo.angle=65
+# print('Angle: ', 80,)
+time.sleep(.5)
 
 while True:
     distance = 0
@@ -68,24 +84,29 @@ while True:
     # else:
     #     print("at setpoint") 
 
+    ## Compute new output from the PID according to the systems current value
     
-    
+    # if the distance is less than 28 cm, then do the code below
+    # then indent all of this 
     if distance > 29:
         my_servo.angle = 175
-        time.sleep(0.1) # this is used to get the servo away from the ultrasonic sensor when it is too close 
+        time.sleep(0.1)
     else:
         output = pid(distance)
 
         my_servo.angle = output
+    # print('Distance: ', distance,'PID Output: ', output)
     p,i,d = pid.components
+    # print(p, i, d)
     my_servo.angle = (180-output)
     time.sleep(0.1)
+        
 
 ```
 
 ### Code Reflection
 
-Possibly the hardest part of this project was the code. To create this code I peiced together code from my past asignments. At first, I created a code that would move back if it was greater than the setpoint, forward if it was less that the setpoint or stay still if it was directly at the setpoint. I later imported the PID Code and pid libraries. It was important to find the minimum and maximum point for the PID code.
+Possibly the hardest part of this project was the code. To create this code I peiced together code from my past asignments. At first, I created a code that would move back if it was greater than the setpoint, forward if it was less that the setpoint or stay still if it was directly at the setpoint. I later imported the PID Code and pid libraries. It was important to find the minimum and maximum point for the PID code. I also learned that the setpoint is a very crucial part of the PID project and trying different ones is also important so you get the best possible code. For our poject, the servo was a very important piece and figuring out where the servo is at 0 degrees 90 degrees and 180 degrees is crucial. That's why in the start of the code I chose the degrees of the servo and found out the lowest middle and highest points to better calibrate the servo.
 
 ### Evidence
 [Onshape Link](https://cvilleschools.onshape.com/documents/7c87217263b0a725d3512c0e/w/d04d77d161baa69265bfc1db/e/c6bb2c1666ca8a2d2c29ad5d)
@@ -161,6 +182,3 @@ Another mistake was putting the servo so close to the ground which made the serv
 
 ### Solution #2
 I put nuts in between the servo and the servo holder so that it would add space and allow for the srvo horn to work.
-
-
-
