@@ -27,6 +27,7 @@ Our work should be done 5/31 and thats when we should do documentation. We did d
 ### Code
 
 ```python
+# import necessary libraries
 import time
 import board
 import adafruit_hcsr04
@@ -41,28 +42,38 @@ from simple_pid import PID
 # v = controlled_system.update(0)
 
 
+# initialize PWM and sonar
 pwm = pwmio.PWMOut(board.A1, duty_cycle=2 ** 15, frequency=50)
 sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D6, echo_pin=board.D7, timeout=0.1)
-setpoint=20
+setpoint=13
 my_servo = servo.Servo(pwm)
 
 # adjust kP, kI, kD to tune the PID controller
-pid = PID(.7, .1, 0, setpoint=setpoint, output_limits=(-40, 40))
+pid = PID(8, 3, 0, setpoint=setpoint, output_limits=(10, 175))
 
 # grab initial value
-input = sonar.distance
+# input = sonar.distance 
+my_servo.angle=10
+# print('Angle: ', 10,)
+time.sleep(.5)
+my_servo.angle=175
+# print('Angle: ', 160,)
+time.sleep(.5)
+my_servo.angle=65
+# print('Angle: ', 80,)
+time.sleep(.5)
 
 while True:
     distance = 0
     # first measure distance
     try:
         distance = sonar.distance
-        print((distance,))
         time.sleep(0.1)
     except RuntimeError:
         print("Retrying!")
         time.sleep(0.1)
 
+    # use this code to check servo without PID
     # # use if statements to compare distance to setpoint and move servo
     # if distance > setpoint:
     #     print("greater than setpoint")
@@ -72,16 +83,24 @@ while True:
     #     my_servo.angle = 40
     # else:
     #     print("at setpoint") 
-    #     my_servo.angle = 90  
-    # 
+
     ## Compute new output from the PID according to the systems current value
-    output = pid(sonar.distance)
-    print('PID Output: ', output)
-    print('Servo Angle: ', output+90)
+    
+    # if the distance is less than 28 cm, then do the code below
+    # then indent all of this 
+    if distance > 29:
+        my_servo.angle = 175
+        time.sleep(0.1)
+    else:
+        output = pid(distance)
 
-    my_servo.angle = output + 90
+        my_servo.angle = output
+    # print('Distance: ', distance,'PID Output: ', output)
+    p,i,d = pid.components
+    # print(p, i, d)
+    my_servo.angle = (180-output)
+    time.sleep(0.1)
         
-
 
 ```
 
