@@ -27,41 +27,25 @@ Our work should be done 5/31 and thats when we should do documentation. We did d
 ### Code
 
 ```python
-# import necessary libraries
 import time
 import board
 import adafruit_hcsr04
 from adafruit_motor import servo
 import pwmio
 from simple_pid import PID
+# import necessary libraries
 
 
-# pid = PID(1, 0.1, 0.05, setpoint=1)
-
-# Assume we have a system we want to control in controlled_system
-# v = controlled_system.update(0)
-
-
-# initialize PWM and sonar
 pwm = pwmio.PWMOut(board.A1, duty_cycle=2 ** 15, frequency=50)
 sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D6, echo_pin=board.D7, timeout=0.1)
-setpoint=13
+setpoint=13 #sets middle point
 my_servo = servo.Servo(pwm)
+#sets pins for servo and ultrasonic sensor 
 
-# adjust kP, kI, kD to tune the PID controller
-pid = PID(8, 3, 0, setpoint=setpoint, output_limits=(10, 175))
 
-# grab initial value
-# input = sonar.distance 
-my_servo.angle=10
-# print('Angle: ', 10,)
-time.sleep(.5)
-my_servo.angle=175
-# print('Angle: ', 160,)
-time.sleep(.5)
-my_servo.angle=65
-# print('Angle: ', 80,)
-time.sleep(.5)
+
+pid = PID(8, 3, 0, setpoint=setpoint, output_limits=(10, 175)) # adjust kP, kI, kD to tune the PID controller
+
 
 while True:
     distance = 0
@@ -84,23 +68,19 @@ while True:
     # else:
     #     print("at setpoint") 
 
-    ## Compute new output from the PID according to the systems current value
     
-    # if the distance is less than 28 cm, then do the code below
-    # then indent all of this 
+    
     if distance > 29:
         my_servo.angle = 175
-        time.sleep(0.1)
+        time.sleep(0.1) # this is used to get the servo away from the ultrasonic sensor when it is too close 
     else:
         output = pid(distance)
 
         my_servo.angle = output
     # print('Distance: ', distance,'PID Output: ', output)
     p,i,d = pid.components
-    # print(p, i, d)
     my_servo.angle = (180-output)
     time.sleep(0.1)
-        
 
 ```
 
