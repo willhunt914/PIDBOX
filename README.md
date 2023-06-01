@@ -106,7 +106,12 @@ while True:
 
 ### Code Reflection
 
-Possibly the hardest part of this project was the code. To create this code I peiced together code from my past asignments. At first, I created a code that would move back if it was greater than the setpoint, forward if it was less that the setpoint or stay still if it was directly at the setpoint. I later imported the PID Code and pid libraries. It was important to find the minimum and maximum point for the PID code. I also learned that the setpoint is a very crucial part of the PID project and trying different ones is also important so you get the best possible code. For our poject, the servo was a very important piece and figuring out where the servo is at 0 degrees 90 degrees and 180 degrees is crucial. That's why in the start of the code I chose the degrees of the servo and found out the lowest middle and highest points to better calibrate the servo.
+Possibly the hardest part of this project was the code. To create this code I peiced together code from my past asignments. At first, I created a code that would move back if it was greater than the setpoint, forward if it was less that the setpoint or stay still if it was directly at the setpoint. I later imported the PID Code and pid libraries. It was important to find the minimum and maximum point for the PID code. 
+
+
+
+
+I also learned that the setpoint is a very crucial part of the PID project and trying different ones is also important so you get the best possible code. For our poject, the servo was a very important piece and figuring out where the servo is at 0 degrees 90 degrees and 180 degrees is crucial. That's why in the start of the code I chose the degrees of the servo and found out the lowest middle and highest points to better calibrate the servo.
 
 ### Wiring Diagram 
 
