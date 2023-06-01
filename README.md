@@ -125,6 +125,8 @@ One problem I encountered with the code and operation was finding out where the 
 My solution was to move the servo to the 3 angles which we figured would be the up, the down, and the middle. This also randomized where the ball which was inadvertent but a huge help.
 
 
+
+
 Here is another problem that we solved and should be of great use to the next person to try this.
 
 
