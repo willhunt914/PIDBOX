@@ -22,7 +22,7 @@ Build done by 5/17 so that we can have a quick start on PID and make sure that e
 
 Code First prototype should be done by 5/18 so that we can have a lot of time to test the code.
 
-Our work should be done 5/31 and thats when we should do documentation. We did documentation throughout so that we could have more time on the project.
+Our work should be done 5/31 and thats when we should do documentation. We did documentation throughout the project so that we could have more time to work.
 
 ### Code
 
@@ -106,7 +106,7 @@ while True:
 
 ### Code Reflection
 
-Possibly the hardest part of this project was the code. To create this code I peiced together code from my past asignments. At first, I created a code that would move back if it was greater than the setpoint, forward if it was less that the setpoint or stay still if it was directly at the setpoint. I later imported the PID Code and pid libraries. It was important to find the minimum and maximum point for the PID code. 
+Possibly the hardest part of this project was the code. The code To create this code I peiced together code from my past asignments. At first, I created a code that would move back if it was greater than the setpoint, forward if it was less that the setpoint or stay still if it was directly at the setpoint. I later imported the PID Code and pid libraries. It was important to find the minimum and maximum point for the PID code. 
 
 
 
@@ -127,7 +127,7 @@ I also learned that the setpoint is a very crucial part of the PID project and t
 https://github.com/willhunt914/PIDBOX/assets/112961434/8d510ab7-2464-4e5e-adf6-877d366d688f
 
 
-This is a video of the first time we got our PID to work.
+This is a video of the first time we got the pid part of our project to work.
 
 ## Cad
 
@@ -143,14 +143,14 @@ This picture shows the isometric viewpoint which shows how the servo is position
 
 ![Screenshot 2023-05-18 154829](https://github.com/willhunt914/PIDBOX/assets/112961434/3d010b23-4162-4270-831f-e4633b3f571c)
 
-Friction fit+ t-slots allowed or us to quickly put the box together and take it apart.
+Friction fit and the t-slots allowed or us to quickly put the box together and take it apart.
 
 
 
 
 
 ### Reflection (includes problems and solutions)
-The CAD, while it might seem easier than the code for this project is actually a crucial piece which insures that all the code can run smoothly and the project functions as it should. Our time management was  lot better this project and we weren't rushed and we knew if we stayed focused we could finish the project on time. I learned that having a very solid plan at the start is important and to be able to adapt still. There was one instance of me not thinking ahead and so when a piece came it didn't work like I thought because I didn't think of it in a logical sense at the time.
+The CAD, while it might seem easier than the code for this project is actually a crucial piece which insures that all the code can run smoothly and the project functions as it should. Our time management was  lot better for this project and we weren't rushed. We knew if we stayed focused we could finish the project on time. I learned that having a very solid plan at the start is important and gives us time to be able to adapt still. There was one instance of me not thinking ahead and so when a piece came it didn't work like I thought because I didn't think of it in a logical sense at the time.
 
 
 ### Problem #1
@@ -178,16 +178,16 @@ Our original wire bent and twisted which made the PID very hard to balance and l
 
  
  
- Our new idea was to use a very strong wire which didn't bend at all.
+Our new idea was to use a very strong wire which didn't bend at all.
 
-### Mistep #1
+### Misstep #1
 One mistep was putting the battery pack on the side which led to the whole thing being unbalanced.
 
 ### Solution #1 
-I had to put holes on the bottom for screws in order to balance it for the PID values.
+I had to put holes on the bottom for screws in order to keep it balanced. 
 
-### Mistep #2
+### Misstep #2
 Another mistake was putting the servo so close to the ground which made the servo horn hit the base. 
 
 ### Solution #2
-I put nuts in between the servo and the servo holder so that it would add space and allow for the srvo horn to work.
+I put nuts in between the servo and the servo holder so that it would add space and allow for the srvo horn to move freely.
