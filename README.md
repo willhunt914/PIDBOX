@@ -3,7 +3,7 @@
 ### Goal/planning
 
 For this project we chose to do a design similar to Mr Dierolfs because it was well documented and their were many tutorials on how to do it. 
-Out goal was to create a design that would balance a ball directly in the middle using and ultrasonic sensor and servos. 
+Our goal was to create a design that would balance a ball directly in the middle using and ultrasonic sensor and servos. 
 
 
 
@@ -113,12 +113,16 @@ Possibly the hardest part of this project was the code. The code To create this 
 
 I also learned that the setpoint is a very crucial part of the PID project and trying different ones is also important so you get the best possible code. For our poject, the servo was a very important piece and figuring out where the servo is at 0 degrees 90 degrees and 180 degrees is crucial. That's why in the start of the code I chose the degrees of the servo and found out the lowest middle and highest points to better calibrate the servo.
 
+
+For someone coding this project here is something that killed 2 birds with 1 stone.
+
+
 ### Code Problem 1
 One problem I encountered with the code and operation was finding out where the servo values were in the right spot for what we needed.
 
 ![COde1](https://github.com/willhunt914/PIDBOX/assets/112961434/36db4cc9-593b-4eb5-a136-aeb38f848659)
 
-My solution was to move the servo to the 3 angles which we figured would be the up, the down, and the middle. this also randomized where the ball which was inadvertent but a huge help.
+My solution was to move the servo to the 3 angles which we figured would be the up, the down, and the middle. This also randomized where the ball which was inadvertent but a huge help.
 
 
 ### Wiring Diagram 
@@ -158,7 +162,7 @@ Friction fit and the t-slots allowed or us to quickly put the box together and t
 
 
 ### Reflection (includes problems and solutions)
-The CAD, while it might seem easier than the code for this project is actually a crucial piece which insures that all the code can run smoothly and the project functions as it should. Our time management was  lot better for this project and we weren't rushed. We knew if we stayed focused we could finish the project on time.
+The CAD, while it might seem easier than the code for this project is actually a crucial piece which insures that all the code can run smoothly and the project functions as it should. Our time management was lot better for this project and we weren't rushed. We knew if we stayed focused we could finish the project on time.
 
 Things I learned: I learned that having a very solid plan at the start is important and gives us time to be able to adapt still. There was one instance of me not thinking ahead and so when a piece came it didn't work like I thought because I didn't think of it in a logical sense at the time. So I learned that taking the time to think logically would be VERY beneficial to our project.
 
