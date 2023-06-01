@@ -150,7 +150,8 @@ Friction fit and the t-slots allowed or us to quickly put the box together and t
 
 
 ### Reflection (includes problems and solutions)
-The CAD, while it might seem easier than the code for this project is actually a crucial piece which insures that all the code can run smoothly and the project functions as it should. Our time management was  lot better for this project and we weren't rushed. We knew if we stayed focused we could finish the project on time. I learned that having a very solid plan at the start is important and gives us time to be able to adapt still. There was one instance of me not thinking ahead and so when a piece came it didn't work like I thought because I didn't think of it in a logical sense at the time.
+The CAD, while it might seem easier than the code for this project is actually a crucial piece which insures that all the code can run smoothly and the project functions as it should. Our time management was  lot better for this project and we weren't rushed. We knew if we stayed focused we could finish the project on time.
+Things I learned: I learned that having a very solid plan at the start is important and gives us time to be able to adapt still. There was one instance of me not thinking ahead and so when a piece came it didn't work like I thought because I didn't think of it in a logical sense at the time. So I learned that taking the time to think logically would be VERY beneficial to our project.
 
 
 ### Problem #1
