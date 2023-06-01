@@ -148,7 +148,6 @@ Our original wire bent and twisted which made the PID very hard to balance and l
 ### Solution 2
 <img src="https://github.com/willhunt914/PIDBOX/assets/112961434/c6d6ecbf-95f3-44d2-9823-a3ff049083af" alt="new wire" width="500" height="600">
 
-![New wire](https://github.com/willhunt914/PIDBOX/assets/112961434/c6d6ecbf-95f3-44d2-9823-a3ff049083af)
  
  
  Our new idea was to use a very strong wire which didn't bend at all.
