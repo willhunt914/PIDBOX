@@ -77,7 +77,6 @@ while True:
         output = pid(distance)
 
         my_servo.angle = output
-    # print('Distance: ', distance,'PID Output: ', output)
     p,i,d = pid.components
     my_servo.angle = (180-output)
     time.sleep(0.1)
