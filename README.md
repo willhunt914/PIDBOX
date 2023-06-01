@@ -124,6 +124,14 @@ One problem I encountered with the code and operation was finding out where the 
 
 My solution was to move the servo to the 3 angles which we figured would be the up, the down, and the middle. This also randomized where the ball which was inadvertent but a huge help.
 
+### Code Problem 2
+Another problem we had was getting values that wouldn't be possible within the confines of the box.
+
+![COde 2](https://github.com/willhunt914/PIDBOX/assets/112961434/3d7bf9f8-5a34-4b7a-96e3-24b919177dbd)
+ 
+ 
+The solution was finding that if the value we got from the ultrasonic sensor was greater than 29 we would kind of reset it and move it away from the bad readings and the PID would go back to work.
+
 
 ### Wiring Diagram 
 
