@@ -178,7 +178,7 @@ Our original wire bent and twisted which made the PID very hard to balance and l
 
  
  
-Our new idea was to use a very strong wire which didn't bend at all.
+Our new idea was to use a very strong wire which didn't bend at all. This worked and our values were much less random and the movements were more controlled.
 
 ### Misstep #1
 One mistep was putting the battery pack on the side which led to the whole thing being unbalanced.
