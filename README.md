@@ -141,11 +141,12 @@ Moving where the axel was connected on the chamber from the bottom to the sides 
 
 ### Problem 2
 
-![Old Wire](https://github.com/willhunt914/PIDBOX/assets/112961434/d3b54ae3-1375-4a07-a4a5-2d41a0973268)
+<img src="https://github.com/willhunt914/PIDBOX/assets/112961434/d3b54ae3-1375-4a07-a4a5-2d41a0973268" alt="Old Wire" width="500" height="600">
 
 Our original wire bent and twisted which made the PID very hard to balance and led to bad readings.
 
 ### Solution 2
+<img src="https://github.com/willhunt914/PIDBOX/assets/112961434/c6d6ecbf-95f3-44d2-9823-a3ff049083af" alt="new wire" width="500" height="600">
 
 ![New wire](https://github.com/willhunt914/PIDBOX/assets/112961434/c6d6ecbf-95f3-44d2-9823-a3ff049083af)
  
