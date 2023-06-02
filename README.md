@@ -41,7 +41,7 @@ from simple_pid import PID
 
 
 pwm = pwmio.PWMOut(board.A1, duty_cycle=2 ** 15, frequency=50)
-sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D6, echo_pin=board.D7, timeout=0.1)# sets correct pins for ultrasonic sensor and servo
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D6, echo_pin=board.D7, timeout=0.1)# sets correct pins for ultrasonic sensor 
 setpoint=13
 my_servo = servo.Servo(pwm)
 
@@ -82,9 +82,8 @@ while True:
 
     ## Compute new output from the PID according to the systems current value
     
-    # if the distance is less than 28 cm, then do the code below
-    # then indent all of this 
-    if distance > 29:
+ 
+    if distance > 29: #if distance sensor is off used to reset ball
         my_servo.angle = 175 #set angle to 175
         time.sleep(0.1)
     else:
