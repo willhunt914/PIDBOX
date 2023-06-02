@@ -101,7 +101,7 @@ while True:
 
 ### Code Reflection
 
-Possibly the hardest part of this project was the code. The code To create this code I peiced together code from my past asignments. At first, I created a code that would move back if it was greater than the setpoint, forward if it was less that the setpoint or stay still if it was directly at the setpoint. I later imported the PID Code and pid libraries. It was important to find the minimum and maximum point for the PID code. 
+Possibly the hardest part of this project was the code. To create this code, I peiced together code from my past asignments. At first, I created a code that would move back if it was greater than the setpoint, forward if it was less that the setpoint or stay still if it was directly at the setpoint. I later imported the PID Code and pid libraries. It was important to find the minimum and maximum point for the PID code. 
 
 
 
@@ -170,7 +170,7 @@ Friction fit and the t-slots allowed or us to quickly put the box together and t
 
 
 ### Reflection (includes problems and solutions)
-The CAD, while it might seem easier than the code for this project is actually a crucial piece which insures that all the code can run smoothly and the project functions as it should. Our time management was lot better for this project and we weren't rushed. We knew if we stayed focused we could finish the project on time. Another issue I ran into was not thinking logically about the differences between onshape and the real world. I accidently looked over something which came back to bite me but, by the end of the project I definitely learned to think about things thoroughly and not just in 1 dimension.
+The CAD, while it might seem easier than the code for this project is actually a crucial piece which insures that all the code can run smoothly and the project functions as it should. Our time management was lot better for this project and we weren't rushed. We knew if we stayed focused we could finish the project on time. The communication between me and Will was important so we both knew what we wanted from each other. One thing to think about during this project is the dimensions of the chamber for the ping pong ball. The length was 289.60mm, height was 54.00mm, and the width was 57.200 which was almost a perfect fit for the ping pong ball and I led to very few bad readings from the ultrasonic sensor. An issue I ran into was not thinking logically about the differences between onshape and the real world. I accidently looked over something which came back to bite me but, by the end of the project I definitely learned to think about things thoroughly and not just in 1 dimension.
 
 
 I learned that having at strong plan at the start makes the whole process easier. Taking the time to plan makes the whole project move smoother even though it may seem unnessesary.
