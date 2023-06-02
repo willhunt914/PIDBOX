@@ -24,6 +24,8 @@ Code First prototype should be done by 5/18 so that we can have a lot of time to
 
 Our work should be done 5/31 and thats when we should do documentation. We did documentation throughout the project so that we could have more time to work.
 
+One problem we anticipated was not having enough time to document. We decided to do the documentation throughout the project instead of at the end so we would have enough time.
+
 ### Code
 
 ```python
