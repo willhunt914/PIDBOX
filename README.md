@@ -35,29 +35,29 @@ import adafruit_hcsr04
 from adafruit_motor import servo
 import pwmio
 from simple_pid import PID
-# import necessary libraries
-
+#imports libraries 
 
 
 
 pwm = pwmio.PWMOut(board.A1, duty_cycle=2 ** 15, frequency=50)
-sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D6, echo_pin=board.D7, timeout=0.1)# sets correct pins for ultrasonic sensor 
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D6, echo_pin=board.D7, timeout=0.1)# sets correct pins 
 setpoint=13
 my_servo = servo.Servo(pwm)
 
-# sets kP, kI, kD for PID and setpoints
+# adjust kP, kI, kD to tune the PID controller
 pid = PID(8, 3, 0, setpoint=setpoint, output_limits=(10, 175))
 
+input = sonar.distance 
 my_servo.angle=10
-# print('Angle: ', 10,)
-time.sleep(.5)
+print('Angle: ', 10,)
+time.sleep(1.5)
 my_servo.angle=175
-# print('Angle: ', 160,)
-time.sleep(.5)
+print('Angle: ', 175,)
+time.sleep(1.5)
 my_servo.angle=65
-# print('Angle: ', 80,)
-time.sleep(.5)
-#sets ball at random point
+print('Angle: ', 60,)
+time.sleep(1.50)
+#used to randomize position of ball and find right angles
 
 while True:
     distance = 0
@@ -79,21 +79,23 @@ while True:
     #     my_servo.angle = 40
     # else:
     #     print("at setpoint") 
-
-    ## Compute new output from the PID according to the systems current value
-    
- 
-    if distance > 29: #if distance sensor is off used to reset ball
-        my_servo.angle = 175 #set angle to 175
+    #     my_servo.angle = 90  
+  
+    if distance > 29:
+        my_servo.angle = 175 # used to get ball away from ultrasonic sensor 
+        time.sleep(0.1)
+    elif distance > 12.5  and distance < 15.5: # used to stop ball if at correct point 
+        my_servo.angle = 60 #set angle
         time.sleep(0.1)
     else:
         output = pid(distance)
 
         my_servo.angle = output
-    # print('Distance: ', distance,'PID Output: ', output) #prints distance of ball and PID outputs
+    print('Distance: ', distance,'PID Output: ', output ) # prints distance 
     p,i,d = pid.components
-    # print(p, i, d)
+    print(p, i, d) # used to print PID values 
     time.sleep(0.1)
+
         
 
 ```
