@@ -155,7 +155,7 @@ The solution was finding that if the value we got from the ultrasonic sensor was
 https://github.com/willhunt914/PIDBOX/assets/112961434/8d510ab7-2464-4e5e-adf6-877d366d688f
 
 
-This is a video of the first time we got the PID part of our project to work.
+This is a video of the first time we got the pid part of our project to work.
 
 ## Cad
 
@@ -176,11 +176,11 @@ Friction fit and the t-slots allowed or us to quickly put the box together and t
 
 
 
-
 ### Reflection (includes problems and solutions)
 The CAD, while it might seem easier than the code for this project is actually a crucial piece which insures that all the code can run smoothly and the project functions as it should. Our time management was lot better for this project and we weren't rushed. We knew if we stayed focused we could finish the project on time.
 
-Things I learned: I learned that having a very solid plan at the start is important and gives us time to be able to adapt still. There was one instance of me not thinking ahead and so when a piece came it didn't work like I thought because I didn't think of it in a logical sense at the time. So I learned that taking the time to think logically would be VERY beneficial to our project.
+
+I learned that having at strong plan at the start makes the whole process easier. Taking the time to plan makes the whole project move smoother even though it may seem unnessesary.
 
 Here are some tips for anyone that attempts this project to avoid mistakes that we made.
 
@@ -189,21 +189,23 @@ Here are some tips for anyone that attempts this project to avoid mistakes that 
 
 ![PIDBOX#3](https://github.com/willhunt914/PIDBOX/assets/112961434/cd20c6a7-7a55-4461-ada8-b235ba777d57)
 
-Our first CAD problem came when the original axel design didn't work beacuse the way to attatch the axle to the chamber was through screw holes which interuppted the movement of the ball which stopped us from getting good readings.
+
+
+Our first problem with cad was that screw holes in the bottom would slow the ball down and would not let it balance.
 ### Solution #1
 
 Our solution was...
 
 ![Screenshot 2023-05-22 093548](https://github.com/willhunt914/PIDBOX/assets/112961434/e1c62af7-ee5a-4057-9c3b-59204c726199)
 
-Moving where the axle was connected on the chamber from the bottom to the sides so it had more stability and didn't interupt ball movements.
+Moving the screws from the bottom to the side of the chamber so that the screws don't get in the way.
 
 
 ### Problem 2
 
 <img src="https://github.com/willhunt914/PIDBOX/assets/112961434/d3b54ae3-1375-4a07-a4a5-2d41a0973268" alt="Old Wire" width="500" height="600">
 
-Our original wire bent and twisted which made the PID very hard to balance and led to bad readings.
+Our original wire bent and twisted which made it very hard to get constant readings.
 
 ### Solution 2
 <img src="https://github.com/willhunt914/PIDBOX/assets/112961434/c6d6ecbf-95f3-44d2-9823-a3ff049083af" alt="new wire" width="500" height="600">
@@ -213,13 +215,13 @@ Our original wire bent and twisted which made the PID very hard to balance and l
 Our new idea was to use a very strong wire which didn't bend at all. This worked and our values were much less random and the movements were more controlled.
 
 ### Misstep #1
-One mistep was putting the battery pack on the side which led to the whole thing being unbalanced.
+One misstep was putting the battery pack on the side which led to the whole thing being unbalanced.
 
 ### Solution #1 
 I had to put holes on the bottom for screws in order to keep it balanced. 
 
 ### Misstep #2
-Another mistake was putting the servo so close to the ground which made the servo horn hit the base. 
+Another misstake was putting the servo so close to the ground which made the servo horn hit the base. 
 
 ### Solution #2
 I put nuts in between the servo and the servo holder so that it would add space and allow for the srvo horn to move freely.
