@@ -170,7 +170,7 @@ Friction fit and the t-slots allowed or us to quickly put the box together and t
 
 
 ### Reflection (includes problems and solutions)
-The CAD, while it might seem easier than the code for this project is actually a crucial piece which insures that all the code can run smoothly and the project functions as it should. Our time management was lot better for this project and we weren't rushed. We knew if we stayed focused we could finish the project on time.
+The CAD, while it might seem easier than the code for this project is actually a crucial piece which insures that all the code can run smoothly and the project functions as it should. Our time management was lot better for this project and we weren't rushed. We knew if we stayed focused we could finish the project on time. Another issue I ran into was not thinking logically about the differences between onshape and the real world. I accidently looked over something which came back to bite me but, by the end of the project I definitely learned to think about things thoroughly and not just in 1 dimension.
 
 
 I learned that having at strong plan at the start makes the whole process easier. Taking the time to plan makes the whole project move smoother even though it may seem unnessesary.
@@ -191,7 +191,7 @@ Our solution was...
 
 ![Screenshot 2023-05-22 093548](https://github.com/willhunt914/PIDBOX/assets/112961434/e1c62af7-ee5a-4057-9c3b-59204c726199)
 
-Moving the screws from the bottom to the side of the chamber so that the screws don't get in the way.
+Moving the screws from the bottom to the side of the chamber so that the screws don't get in the way. This was an example ofme thinking only in onshape and not thinking about the ball and where it was gonna be.
 
 
 ### Problem 2
