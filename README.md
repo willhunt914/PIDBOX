@@ -113,7 +113,7 @@ Possibly the hardest part of this project was the code. The code To create this 
 
 
 
-I also learned that the setpoint is a very crucial part of the PID project and trying different ones is also important so you get the best possible code. For our poject, the servo was a very important piece and figuring out where the servo is at 0 degrees 90 degrees and 180 degrees is crucial. That's why in the start of the code I chose the degrees of the servo and found out the lowest middle and highest points to better calibrate the servo.
+I also learned that the setpoint is a very crucial part of the PID project and trying different ones is also important so you get the best possible code. For our poject, the servo was a very important piece and figuring out where the servo is at 0 degrees 90 degrees and 180 degrees is important. That's why in the start of the code I chose the degrees of the servo and found out the lowest middle and highest points to better calibrate the servo.
 
 
 For someone coding this project here is something that killed 2 birds with 1 stone.
@@ -135,7 +135,7 @@ Here is another problem that we solved and should be of great use to the next pe
 ### Code Problem 2
 Another problem we had was getting values that wouldn't be possible within the confines of the box.
 
-![COde 2](https://github.com/willhunt914/PIDBOX/assets/112961434/3d7bf9f8-5a34-4b7a-96e3-24b919177dbd)
+![Code 2](https://github.com/willhunt914/PIDBOX/assets/112961434/3d7bf9f8-5a34-4b7a-96e3-24b919177dbd)
  
  
 The solution was finding that if the value we got from the ultrasonic sensor was greater than 29 we would kind of reset it and move it away from the bad readings and the PID would go back to work.
@@ -221,7 +221,7 @@ One misstep was putting the battery pack on the side which led to the whole thin
 I had to put holes on the bottom for screws in order to keep it balanced. 
 
 ### Misstep #2
-Another misstake was putting the servo so close to the ground which made the servo horn hit the base. 
+Another mistake was putting the servo so close to the ground which made the servo horn hit the base. 
 
 ### Solution #2
 I put nuts in between the servo and the servo holder so that it would add space and allow for the srvo horn to move freely.
