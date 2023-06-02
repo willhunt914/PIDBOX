@@ -155,7 +155,7 @@ The solution was finding that if the value we got from the ultrasonic sensor was
 https://github.com/willhunt914/PIDBOX/assets/112961434/8d510ab7-2464-4e5e-adf6-877d366d688f
 
 
-This is a video of the first time we got the pid part of our project to work.
+This is a video of the first time we got the PID part of our project to work.
 
 ## Cad
 
@@ -189,14 +189,14 @@ Here are some tips for anyone that attempts this project to avoid mistakes that 
 
 ![PIDBOX#3](https://github.com/willhunt914/PIDBOX/assets/112961434/cd20c6a7-7a55-4461-ada8-b235ba777d57)
 
-Our first CAD problem came when the original axel design didn't work beacuse the way to attatch the axel to the chamber was through screw holes which interuppted the movement of the ball which stopped us from getting good readings.
+Our first CAD problem came when the original axel design didn't work beacuse the way to attatch the axle to the chamber was through screw holes which interuppted the movement of the ball which stopped us from getting good readings.
 ### Solution #1
 
 Our solution was...
 
 ![Screenshot 2023-05-22 093548](https://github.com/willhunt914/PIDBOX/assets/112961434/e1c62af7-ee5a-4057-9c3b-59204c726199)
 
-Moving where the axel was connected on the chamber from the bottom to the sides so it had more stability and didn't interupt ball movements.
+Moving where the axle was connected on the chamber from the bottom to the sides so it had more stability and didn't interupt ball movements.
 
 
 ### Problem 2
