@@ -151,9 +151,7 @@ The solution was finding that if the value we got from the ultrasonic sensor was
 
 ### Wiring Diagram 
 
-
-![pidboxwiring2 0](https://github.com/willhunt914/PIDBOX/assets/71402974/027e861d-31be-49ce-8adf-1da0d4c700c3)
-
+<img src="https://github.com/willhunt914/PIDBOX/assets/71402974/027e861d-31be-49ce-8adf-1da0d4c700c3" alt="Evidence#1" width="500" height="500">
 
 ## Cad
 
