@@ -7,8 +7,6 @@ Our goal was to create a design that would balance a ball directly in the middle
 
 
 
-
-
 ![pidplannign](https://user-images.githubusercontent.com/71402974/232500023-27507196-46f4-4ddd-9c11-e0a9c3934b7b.png)
 
 This was our first idea and sketch where a servo located on the base you have a string or something to control the chamber.
@@ -25,6 +23,19 @@ Code First prototype should be done by 5/18 so that we can have a lot of time to
 Our work should be done 5/31 and thats when we should do documentation. We did documentation throughout the project so that we could have more time to work.
 
 One problem we anticipated was not having enough time to document. We decided to do the documentation throughout the project instead of at the end so we would have enough time.
+
+### Criteria+Constriants
+
+The criteria for this project was fairly simple, create something that utilizes PID to do anything.
+
+The criteria included, Work together in groups of 2.
+Use only an Arduino and other standard components in the Sigma Lab.
+Use 4 or 6 AA batteries and a battery pack for power.
+Include a power switch and an LED power indicator.
+Ensure everything is securely mounted (the Arduino can use standoffs or rubber feet).
+
+[Bill of Materials](https://docs.google.com/document/d/1J53i04ptv5_mM0lnMhT_mGYdmYwtcKZW3SEIHETr12E/edit)
+
 
 ### Code
 
@@ -137,12 +148,10 @@ The solution was finding that if the value we got from the ultrasonic sensor was
 
 ### Wiring Diagram 
 
-![pidboxwiring2 0](https://github.com/willhunt914/PIDBOX/assets/71402974/6ed5031c-2ff2-4ab8-b91a-c4df18c6c64c)
+![Screenshot 2023-06-01 111227](https://github.com/willhunt914/PIDBOX/assets/71402974/a2691ea1-cc53-4d89-b0bc-76781608a0e4)
 
 ### Evidence
 [Onshape Link](https://cvilleschools.onshape.com/documents/7c87217263b0a725d3512c0e/w/d04d77d161baa69265bfc1db/e/c6bb2c1666ca8a2d2c29ad5d)
-
-[Bill of Materials](https://docs.google.com/document/d/1J53i04ptv5_mM0lnMhT_mGYdmYwtcKZW3SEIHETr12E/edit)
 
 
 
