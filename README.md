@@ -1,5 +1,5 @@
 # PIDbox
-
+### Matthias Zimmerman & Will Hunt
 ### Goal/planning
 
 For this project we chose to do a design similar to Mr Dierolfs because it was well documented and their were many tutorials on how to do it. We also did it because Mr Dierolf is an idol and we want to be like him (Mr Dierolf wanted that)
