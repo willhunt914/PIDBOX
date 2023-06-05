@@ -2,7 +2,7 @@
 
 ### Goal/planning
 
-For this project we chose to do a design similar to Mr Dierolfs because it was well documented and their were many tutorials on how to do it. 
+For this project we chose to do a design similar to Mr Dierolfs because it was well documented and their were many tutorials on how to do it. We also did it because Mr Dierolf is an idol and we want to be like him (Mr Dierolf wanted that)
 Our goal was to create a design that would balance a ball directly in the middle using and ultrasonic sensor and servos. 
 
 
@@ -153,15 +153,7 @@ The solution was finding that if the value we got from the ultrasonic sensor was
 
 ![Screenshot 2023-06-01 111227](https://github.com/willhunt914/PIDBOX/assets/71402974/a2691ea1-cc53-4d89-b0bc-76781608a0e4)
 
-### Evidence
-[Onshape Link](https://cvilleschools.onshape.com/documents/7c87217263b0a725d3512c0e/w/d04d77d161baa69265bfc1db/e/c6bb2c1666ca8a2d2c29ad5d)
 
-
-
-https://github.com/willhunt914/PIDBOX/assets/112961434/8d510ab7-2464-4e5e-adf6-877d366d688f
-
-
-This is a video of the first time we got the pid part of our project to work.
 
 ## Cad
 
@@ -231,3 +223,13 @@ Another mistake was putting the servo so close to the ground which made the serv
 
 ### Solution #2
 I put nuts in between the servo and the servo holder so that it would add space and allow for the srvo horn to move freely.
+
+### Evidence
+[Onshape Link](https://cvilleschools.onshape.com/documents/7c87217263b0a725d3512c0e/w/d04d77d161baa69265bfc1db/e/c6bb2c1666ca8a2d2c29ad5d)
+
+
+
+https://github.com/willhunt914/PIDBOX/assets/112961434/8d510ab7-2464-4e5e-adf6-877d366d688f
+
+
+This is a video of the first time we got the pid part of our project to work.
