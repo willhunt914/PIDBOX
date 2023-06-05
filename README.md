@@ -228,7 +228,7 @@ I put nuts in between the servo and the servo holder so that it would add space 
 
 ### Evidence
 
-![IMG_0161 (1)](https://github.com/willhunt914/PIDBOX/assets/112961434/1d47b976-68e1-439a-9bda-f3334fe806eb)
+<img src="https://github.com/willhunt914/PIDBOX/assets/112961434/1d47b976-68e1-439a-9bda-f3334fe806eb" alt="Evidence#1" width="450" height="650">
 
 
 https://github.com/willhunt914/PIDBOX/assets/112961434/8d510ab7-2464-4e5e-adf6-877d366d688f
