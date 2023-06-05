@@ -42,7 +42,7 @@ Ensure everything is securely mounted (the Arduino can use standoffs or rubber f
 ```python
 #Ping Pong Balance code
 #Code By Will, Matthias and help from Mr Garcia
-#this code uses PID to ballance a ball in the center of a platform.
+#This code uses PID to ballance a ball in the center of a platform.
 import time
 import board
 import adafruit_hcsr04
